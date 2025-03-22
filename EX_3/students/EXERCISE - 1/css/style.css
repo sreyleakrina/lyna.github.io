@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: cursive; 
+}
+.card{
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 12px 0px rgba(173,173,173,0.75);
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(173,173,173,0.75);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(173,173,173,0.75);
+    border-radius:0px 0px 20px 20px;
+}
+.card img{
+    width: 100%;
+    justify-content: center;
+    border: 1px solid rgb(0, 113, 36);     
+}
+.card h1{
+    margin-bottom: 0px;
+    color: rgb(0, 113, 36);
+    border-radius:0px 0px 20px 20px;
+    
+    
+}
+.card span{
+    font-size: 14px;
+    color: orangered;
+    border-radius:0px 0px 20px 20px;
+    
+}
